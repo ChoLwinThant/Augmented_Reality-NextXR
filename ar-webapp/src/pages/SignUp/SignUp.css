@@ -55,5 +55,6 @@ button:hover {
 .login-link {
     color: #0870b1;
     font-weight: normal;
+    text-decoration: none;
 
 }

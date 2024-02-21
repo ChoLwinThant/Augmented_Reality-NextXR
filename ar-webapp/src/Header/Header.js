@@ -11,9 +11,9 @@ const Header = () => {
       </div>
       <nav>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/signup">Sign Up</a></li>
-          <li><a href="/login">Log In</a></li>
+          <li><a className="nav-link" href="/">Home</a></li>
+          <li><a className="nav-link" href="/signup">Sign Up</a></li>
+          <li><a className="nav-link" href="/login">Log In</a></li>
         </ul>
       </nav>
     </header>

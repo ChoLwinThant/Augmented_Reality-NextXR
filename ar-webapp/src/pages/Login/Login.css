@@ -55,4 +55,5 @@ button:hover {
 .signup-link {
     color: #0870b1;
     font-weight: normal;
+    text-decoration: none;
 }
