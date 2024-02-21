@@ -1,12 +1,13 @@
 // App.js
 import React from 'react';
-import Header from './Header/Header';  // Adjust the path based on your actual file structure
-
+import Header from './Header/Header';
+import Footer from './Footer/Footer';
+<script src="https://kit.fontawesome.com/e57e6433be.js" crossorigin="anonymous"></script>
 const App = () => {
   return (
     <div>
       <Header />
-      {/* Other content of your application */}
+      <Footer />
     </div>
   );
 }
