@@ -19,8 +19,8 @@ const App = () => {
           <Route path="/login" component={Login}></Route>
         </Switch>
 
-        {/* 
-        <Footer></Footer> */}
+
+        <Footer></Footer>
       </Router>
     </div>
   );
