@@ -3,7 +3,6 @@
     /* Change to flex-column */
     flex-direction: column;
     /* Ensure children stack vertically */
-    justify-content: center;
     align-items: center;
     height: 100vh;
 }
@@ -55,4 +54,6 @@ button:hover {
 
 .login-link {
     color: #0870b1;
+    font-weight: normal;
+
 }

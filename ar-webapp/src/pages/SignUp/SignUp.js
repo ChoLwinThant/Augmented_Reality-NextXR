@@ -33,7 +33,7 @@ export class SignUp extends Component {
     render() {
         return (
             <div className="signup-container">
-                <h2>Register</h2>
+                <h2>Sign Up</h2>
                 <form onSubmit={this.handleSubmit}>
 
                     <div className="form-group">
