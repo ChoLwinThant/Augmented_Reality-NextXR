@@ -1,10 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+// App.js
+import React from 'react';
+import Header from './Header/Header';  // Adjust the path based on your actual file structure
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-  
+    <div>
+      <Header />
+      {/* Other content of your application */}
     </div>
   );
 }
