@@ -30,7 +30,7 @@ export class Login extends Component {
     render() {
         return (
             <div className="login-container">
-                <h2>Login testing from a branch</h2>
+                <h2>Login</h2>
                 <form onSubmit={this.handleSubmit}>
 
                     <div className="form-group">
