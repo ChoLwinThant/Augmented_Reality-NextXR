@@ -4,6 +4,7 @@ import React from 'react';
 import Header from './Header/Header';
 import SignUp from './pages/SignUp/SignUp';
 import Login from './pages/Login/Login';
+import Subscription from './pages/Subscription/Subscription';
 import Footer from './Footer/Footer';
 <script src="https://kit.fontawesome.com/e57e6433be.js" crossorigin="anonymous"></script>
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
         <Switch>
           <Route path="/signup" component={SignUp}></Route>
           <Route path="/login" component={Login}></Route>
+          <Route path="/sub-plan" component={Subscription}></Route>
         </Switch>
 
 
