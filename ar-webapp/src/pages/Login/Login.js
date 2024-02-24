@@ -30,7 +30,7 @@ export class Login extends Component {
     render() {
         return (
             <div className="login-container">
-                <h2>Login</h2>
+                <h2>Welcome back again</h2>
                 <form onSubmit={this.handleSubmit}>
 
                     <div className="form-group">
@@ -60,6 +60,7 @@ export class Login extends Component {
                     <button type="submit">Login</button>
                 </form>
                 <p>Not Registered? <Link to="/signup" className="signup-link">Sign Up</Link></p>
+                <p><Link to="/forgot-password" className="forgot-password-link">Forgot Password?</Link></p>
             </div>
         );
     }

@@ -5,6 +5,12 @@
     /* Ensure children stack vertically */
     align-items: center;
     height: 100vh;
+    background-image: url('../../images/signup-bg.jpg');
+    /* Specify the path to your background image */
+    background-size: cover;
+    /* Cover the entire container */
+    background-position: center;
+    /* Center the background image */
 }
 
 form {
@@ -41,19 +47,19 @@ input {
 button {
     width: 100%;
     padding: 10px;
-    background-color: #4BB3B1;
-    color: #000;
+    background-color: #1E357C;
+    color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #199592;
+    background-color: #101F4D;
 }
 
 .signup-link {
-    color: #0870b1;
+    color: #1E357C;
     font-weight: normal;
     text-decoration: none;
 }
