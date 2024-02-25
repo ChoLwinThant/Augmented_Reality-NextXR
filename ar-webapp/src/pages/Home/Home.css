@@ -1,0 +1,409 @@
+/* Home Section Styles */
+#home {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.welcome-message {
+  margin-top: 0;
+}
+
+.sub-title {
+  font-size: 50px;
+  font-weight: 500;
+  color: #000;
+}
+
+@keyframes wave {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.container {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.home-col-1,
+.home-col-2 {
+  flex-basis: 50%;
+  text-align: center;
+}
+
+.bgi-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  animation: wave 2s infinite;
+}
+
+.home-col-2 p {
+  margin: 10;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.login-button,
+.signup-button {
+  padding: 10px 15px;
+  margin-right: 10px;
+  margin-top: 50px;
+  background-color: #1E357C;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: auto;
+  text-decoration: none;
+
+
+}
+
+.login-button:hover,
+.signup-button:hover {
+  background-color: #6e88d3;
+}
+
+/* About Section Styles */
+#about{
+  padding: 80px 0;
+  color: #fff;
+}
+
+.about-container{
+  padding: 10px 10%;
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.about-sub-title {
+  font-size: 50px;
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+  animation: wave 2s infinite;
+}
+.about-title {
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.about-col-1 {
+  flex-basis: 35%;
+}
+.about-col-1 img{
+  width: 100%;
+  border-radius: 15px;
+}
+
+.about-col-2{
+  flex-basis: 60%;
+}
+
+.trial-button {
+  display: inline-block;
+   padding: 10px 15px;
+  text-decoration: none;
+  background-color: #1E357C;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: auto;
+  text-decoration: none;
+}
+
+.trial-button:hover {
+  background-color: #6e88d3;
+}
+
+/* Team Section Styles */
+#team {
+  padding: 80px 0;
+  background-color: #f8f8f8;
+}
+
+.team-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-col-1 {
+  text-align: center;
+  margin-bottom: 40px; 
+}
+
+.team-sub-title {
+  font-size: 40px;
+  font-weight: 500;
+  color: #1E357C;
+  margin-bottom: 20px;
+  animation: wave 2s infinite;
+}
+
+.team-col-1 p {
+  font-size: 16px;
+  color: #000; 
+  margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .team-col-1 {
+    margin-bottom: 20px;
+  }
+
+  .team-sub-title {
+    font-size: 30px; 
+  }
+
+  .team-col-1 p {
+    font-size: 14px; 
+  }
+}
+
+/* Team Members Styles */
+.team-member {
+  text-align: center;
+  margin-bottom: 30px;
+  background-color: #fff;
+  border-radius: 10px; 
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-left: 10px; 
+  margin-right: 10px; 
+}
+
+.team-sub-title {
+  font-size: 40px;
+  font-weight: 500;
+  color: #000;
+}
+
+.team-member img {
+  max-width: 100%;
+  border-radius: 10%;
+}
+
+.team-member h2 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.team-member p {
+  font-size: 14px;
+  color: #555;
+}
+
+.social-links {
+  margin-top: 15px;
+}
+
+.social-links a {
+  text-decoration: none;
+  font-size: 25px;
+  margin-right: 8px;
+  color: #1E357C;
+}
+
+.social-links a:hover {
+  color:#6e88d3;
+}
+
+.social-links img {
+  max-width: 25px;
+}
+
+.team-col-2 {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+
+@media only screen and (min-width: 600px) {
+  .team-col-2 {
+    flex-direction: row;
+    justify-content: space-around; 
+  }
+
+  .team-member {
+    margin-left: 0;
+    margin-right: 0; 
+  }
+}
+
+
+/* Contact Section */
+#contact {
+  padding: 80px 0; 
+  color: #fff; 
+  background-image: url('../../images/earth.gif'); 
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.contact-sub-title {
+  font-size: 50px;
+  font-weight: 500;
+  text-align: center;
+  color: #000;
+  animation: wave 2s infinite;
+  margin-top: 0px;
+}
+
+.contact-info {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.contact-info h2 {
+  margin-bottom: 5px;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-info p {
+  margin-bottom: 5px;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-form {
+  animation: wave 2s infinite;
+  margin-top: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contact-col-1 {
+  flex: 1;
+  padding: 20px;
+  
+}
+
+.contact-form label,
+.contact-form textarea,
+.contact-form input {
+  display: block;
+  margin-bottom: 15px;
+  width: 100%;
+  
+}
+
+.contact-form textarea {
+  height: 150px;
+  background-color: #F5F5F5;
+}
+
+.contact-form button {
+  background-color: #1E357C;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #6e88d3;
+}
+
+/* Earth Git Styles */
+.earth-git {
+  max-width: 100%;
+  display: block;
+  margin-top: 20px;
+}
+
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+    #home {
+      padding: 20px 0; 
+    }
+  
+    .sub-title {
+      font-size: 40px;
+    }
+  
+    .container {
+      max-width: 100%; 
+    }
+  
+    .home-col-1,
+    .home-col-2 {
+      flex-basis: 100%; 
+    }
+  
+    .bgi-image {
+      max-width: 75%; 
+    }
+  }
+  #about {
+    padding: 20px 0; 
+  }
+
+  .sub-title {
+    font-size: 40px;
+  }
+
+  .container {
+    max-width: 100%; 
+  }
+
+  .about-col-1,
+  .about-col-2 {
+    flex-basis: 100%; 
+  }
+
+  .bgi-image {
+    max-width: 75%; 
+  }
+
+
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .contact-col-1,
+  .contact-col-2 {
+    width: 100%;
+  }
