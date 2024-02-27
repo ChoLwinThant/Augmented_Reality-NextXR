@@ -13,7 +13,7 @@
     /* Center the background image */
 }
 
-form {
+.login-container form {
     width: 300px;
     background-color: #f9f9f9;
     padding: 20px;
@@ -36,7 +36,7 @@ label {
     margin-bottom: 5px;
 }
 
-input {
+.login-input {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
