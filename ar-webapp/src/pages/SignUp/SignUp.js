@@ -34,6 +34,7 @@ export class SignUp extends Component {
                         <div className="form-group">
                             <label htmlFor="email">Email:</label>
                             <input
+                                className='signup-input'
                                 type="email"
                                 name="email"
                                 id="email"
@@ -45,6 +46,7 @@ export class SignUp extends Component {
                         <div className="form-group">
                             <label htmlFor="name">Username:</label>
                             <input
+                                className='signup-input'
                                 type="text"
                                 name="name"
                                 id="name"
@@ -56,6 +58,7 @@ export class SignUp extends Component {
                         <div className="form-group">
                             <label htmlFor="password">Password:</label>
                             <input
+                                className='signup-input'
                                 type="password"
                                 name="password"
                                 id="password"
@@ -67,6 +70,7 @@ export class SignUp extends Component {
                         <div className="form-group">
                             <label htmlFor="confirmPass">Confirm Password:</label>
                             <input
+                                className='signup-input'
                                 type="password"
                                 name="confirmPass"
                                 id="confirmPass"

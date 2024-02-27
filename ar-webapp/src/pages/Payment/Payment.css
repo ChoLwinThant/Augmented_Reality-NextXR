@@ -1,0 +1,49 @@
+/* Center the Payment form */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+/* Add container for styling */
+.form-container {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the form elements */
+.payment-input,
+.card-element,
+.form-container select,
+.form-container button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Adjust card details label */
+.card-element label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+/* Style the submit button */
+.form-container button {
+    background-color: #1E357C;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Hover effect for the submit button */
+.form-container button:hover {
+    background-color: #101F4D;
+}

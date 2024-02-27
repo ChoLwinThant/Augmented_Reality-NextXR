@@ -36,6 +36,7 @@ export class Login extends Component {
                     <div className="form-group">
                         <label htmlFor="name">Username:</label>
                         <input
+                            className='login-input'
                             type="text"
                             name="name"
                             id="name"
@@ -48,6 +49,7 @@ export class Login extends Component {
                     <div className="form-group">
                         <label htmlFor="password">Password:</label>
                         <input
+                            className='login-input'
                             type="password"
                             name="password"
                             id="password"
