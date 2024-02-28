@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, withRouter} from 'react-router-dom';
 import signupImg from '../../images/signup.png'
 import './SignUp.css';
 
@@ -22,7 +22,7 @@ export class SignUp extends Component {
     handleSubmit = (event) => {
         event.preventDefault();
 
-        // Handle form submission
+        this.props.history.push('/trial');
     }
 
     render() {
@@ -92,4 +92,4 @@ export class SignUp extends Component {
     }
 }
 
-export default SignUp;
+export default withRouter(SignUp);

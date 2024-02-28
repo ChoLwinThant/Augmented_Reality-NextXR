@@ -16,7 +16,7 @@ nav {
   display: flex;
 }
 
-ul {
+.nav-items {
   list-style: none;
   display: flex;
   gap: 20px;
