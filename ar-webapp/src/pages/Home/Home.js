@@ -20,7 +20,7 @@ class Home extends Component {
         <div id="home" className="section">
           <div className="container">
             <div className="welcome-message">
-              <h1 className="sub-title">Welcome to The AR Website!</h1>
+              <h1 className="sub-title">Welcome to The ARVisioTech!</h1>
             </div>
             <div className="row">
               <div className="home-col-1">
