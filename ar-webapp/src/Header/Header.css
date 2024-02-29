@@ -8,8 +8,13 @@
   padding: 10px;
 }
 
+.logo {
+  display: flex;  /* Add this line */
+  align-items: center;  /* Add this line */
+}
+
 .logo img {
-  max-height: 50px;
+  max-height: 100px;
 }
 
 nav {
@@ -51,3 +56,27 @@ li {
 a:hover::after {
   width: 100%;
 }
+
+/* Responsive styles for smaller screens */
+@media only screen and (max-width: 600px) {
+  .header-container {
+    align-items: flex-start;
+  }
+
+  .logo img {
+    max-height: 60px; /* Adjust as needed */
+  }
+
+  nav {
+    margin-top: 10px; /* Adjust as needed */
+    width: 100%;  /* Add this line */
+  }
+
+  ul {
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;  /* Add this line */
+    justify-content: flex-end; /* Align ul to the right corner */
+  }
+}
+
