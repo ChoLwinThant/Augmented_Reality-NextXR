@@ -1,7 +1,7 @@
 // Header.js
 import React from 'react';
 import './Header.css';  // Import the associated CSS file
-import Logo from '../images/logo.jpg';  // Import the logo image
+import Logo from '../images/logo.png';  // Import the logo image
 
 const Header = () => {
   return (

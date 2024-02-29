@@ -5,10 +5,8 @@ import Header from './Header/Header';
 import Home from './pages/Home/Home';
 import SignUp from './pages/SignUp/SignUp';
 import Login from './pages/Login/Login';
-import Payment from './pages/Payment/Payment';
-import Trial from './pages/Trial/Trial';
-import PrivacyPolicy from './pages/PrivacyPolicy/PrivacyPolicy';
-import Terms from './pages/Termscon/Terms';
+import Content from './pages/Content/Content';
+import Experience from './pages/Experience/Experience';
 
 import Footer from './Footer/Footer';
 import Subscription from './pages/Subscription/Subscription';
@@ -26,12 +24,9 @@ const App = () => {
           <Route path="/home" component={Home}></Route>
           <Route path="/signup" component={SignUp}></Route>
           <Route path="/login" component={Login}></Route>
-          <Route path="/trial" component={Trial}></Route>
           <Route path="/sub-plan" component={Subscription}></Route>
-          <Route path="/policy" component={PrivacyPolicy}></Route>
-          <Route path="/terms" component={Terms}></Route>
-          <Route path="/payment" component={Payment}></Route>
-     
+          <Route path="/content" component={Content}></Route>
+          <Route path="/exp" component={Experience}></Route>
         </Switch>
 
 

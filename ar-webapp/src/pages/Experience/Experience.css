@@ -1,0 +1,78 @@
+/* Experience Section Styles */
+#experience {
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+}
+
+@keyframes wave {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.experience-sub-title {
+    font-size: 50px;
+    font-weight: 500;
+    color: #000;
+    animation: wave 2s infinite;
+}
+  .experience-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .experience-image {
+    max-width: 90%;
+    border-radius: 10px;
+  }
+  
+  .experience-button {
+    margin-top: 25px;
+    padding: 10px 0px;
+    width: 250px;
+    height: 40px; 
+    background-color: #1E357C;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  
+  .experience-button:hover {
+    background-color: #6e88d3;
+  }
+  
+/* Media Query for Smaller Screens */
+@media only screen and (max-width: 600px) {
+
+    #experience {
+        margin-bottom: 20px;
+        text-align: center;
+        padding: 100px 0;
+        display: flex;
+    }
+
+    .experience-sub-title {
+    max-width: 70%;
+      font-size: 40px; /* Adjust the font size for smaller screens */
+    }
+    .experience-image {
+        max-width: 70%; /* Limit the max-width of the image to 70% for smaller screens */
+      }
+
+    .experience-button {
+      width: 70%; /* Make the button full-width for smaller screens */
+    }
+  }
+  
+  

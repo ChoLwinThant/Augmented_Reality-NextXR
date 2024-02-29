@@ -1,0 +1,102 @@
+/* Content Section Styles */
+#content {
+    margin-bottom: 20px;
+    padding: 40px 0;
+    text-align: center;
+    padding: 0px 0;
+}
+
+@keyframes wave {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.content-sub-title {
+    font-size: 50px;
+    font-weight: 500;
+    color: #000;
+    animation: wave 2s infinite;
+}
+.content-container {
+    padding: 10px 10%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Card Styles */
+.card {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.card h2 {
+    font-size: 20px;
+    margin: 15px;
+}
+
+.card p {
+    font-size: 14px;
+    margin: 0 15px 15px;
+}
+
+/* Button Styles */
+.content-buttons {
+    display: flex;
+    flex-direction: column; /* Align buttons vertically */
+    align-items: center; /* Center buttons horizontally */
+    margin-top: 20px; /* Adjusted margin top */
+}
+
+.button-down,
+.button-exp {
+    padding: 10px 15px; /* Adjusted padding for the Experience AR link */
+    background-color: #1E357C;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: auto;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 14px; /* Adjusted font size for the Experience AR link */
+}
+
+.button-down:hover,
+.button-exp:hover {
+    background-color: #6e88d3;
+}
+
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+    .card, .button-down, .button-exp {
+        flex-basis: calc(50% - 20px);
+    }
+
+    .card h2 {
+        font-size: 16px; /* Adjusted font size for heading in smaller screens */
+    }
+
+    .card p {
+        font-size: 12px; /* Adjusted font size for paragraph in smaller screens */
+    }
+}
