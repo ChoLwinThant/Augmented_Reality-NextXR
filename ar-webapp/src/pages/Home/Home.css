@@ -93,7 +93,7 @@
 
 /* About Section Styles */
 #about{
-  padding: 80px 0;
+  padding: 0px 0;
   color: #fff;
 }
 
@@ -271,7 +271,7 @@
 
 /* Contact Section */
 #contact {
-  padding: 80px 0; 
+  padding: 0px 0; 
   color: #fff; 
   background-image: url('../../images/earth.gif'); 
   background-size: cover;
@@ -383,8 +383,11 @@
       max-width: 75%; 
     }
   }
-  #about {
-    padding: 20px 0; 
+  
+  @media only screen and (max-width: 600px) {
+    #about .about-col-2 p:not(:first-of-type) {
+      display: none;
+    }
   }
 
 .sub-title {
